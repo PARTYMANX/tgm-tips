@@ -1,210 +1,179 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF8">
-<meta http-equiv="Content-Style-Type" content="text/css">
-<title>Tetris Guide</title>
-</head>
-
-<body link="#00ff00" bgcolor="#000000" vlink="#00cc00" text="#cccccc">
-<p><b><font color="#ff0000" size="+1">Lesson 7: Understanding the range of movement</font></b></p>
-<hr>
-<p><b><font color="#ff0000">Sliding over holes</font></b></p>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/12.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">With J and L it's a good idea to use IRS to land with the blunt side down.<br></font></td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/14.gif" border="0" height="239" width="119"></td>
-      <td><img src="7pics/15.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">You can slide over bumps when they're out of reach like this.</font></td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/16.gif" border="0" height="239" width="119"></td>
-      <td><img src="7pics/17.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">Rotating J<br>
-      As seen left you'll often need to use IRS and keep rotating in that direction.<br>
-      On the right side you can see a more complicated example.</font></td>
-    </tr>
-  </tbody>
-</table>
-<p> </p>
-<p><b><font color="#ff0000">When not to use IRS</font></b></p>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/18.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">L and S are easy to slide to the left without IRS in most cases.</font></td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/19.gif" border="0" height="239" width="119"></td>
-      <td><img src="7pics/20.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">Sometimes you have to shift the block first before rotating, using IRS they'd get stuck.</font></td>
-    </tr>
-  </tbody>
-</table>
-<p> </p>
-<p><b><font color="#ff0000">Rotating the I</font></b></p>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/red.gif" border="0" height="41" width="41"></td>
-      <td><img src="7pics/red2.gif" border="0" height="239" width="119"></td>
-      <td><img src="7pics/red3.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">The I can only be rotated on the right when there's a 2 x 2 space free.</font></td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/21.gif" border="0" height="239" width="119"></td>
-      <td><img src="7pics/22.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">If a 2 x 2 space is available the other terrain doesn't matter.</font></td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/red4.gif" border="0" height="239" width="119"></td>
-      <td><img src="7pics/red5.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">On the right side a 3 x 2 space is needed.<br>
-      </font><font color="#ffff00" size="-1">The steps pattern works only on the right.</font><font size="-1"></font></td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/25.gif" border="0" height="239" width="119"></td>
-      <td><img src="7pics/26.gif" border="0" height="239" width="119"></td>
-      <td><img src="7pics/24.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">In some cases you need to be careful with rotating so you don't get stuck.</font></td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/01.png" border="0" height="239" width="119"></td>
-      <td><font size="-1">What can you do when the situation is like this?<br>
-      In 20G mode, it would seem that you'd get stuck in the hole there.<br>
-      In this case, however, with accumulated speed to the left, the game will perform more than one action in a frame.<br>
-      <br>
-      See the next section for more details.</font></td>
-    </tr>
-  </tbody>
-</table>
-<p> </p>
-<p><b><font color="#ff0000">Synchronous actions</font></b></p>
-<p><font size="-1">In some cases you can perform multiple action in one frame<br>
-As mentioned in <a href="1.htm">lesson 1</a> a frame is the smallest time-unit visible to the player.<br>
-</font><br>
-<font size="-1"><br>
-Here is an example of this behaviour.<br>
-More advanced examples can be found in <a href="12.htm">lesson 12</a>.</font></p>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/02.png" border="0" height="239" width="119"></td>
-      <td><font size="-1">While holding left, we rotate.<br></font></td>
-    </tr>
-    <tr>
-      <td align="center">↓</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><img src="7pics/03.png" border="0" height="239" width="119"></td>
-      <td><font size="-1">The game will rotate in memory, this is not shown on screen.</font></td>
-    </tr>
-    <tr>
-      <td align="center">↓</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><img src="7pics/04.png" border="0" height="239" width="119"></td>
-      <td><font size="-1">Now it will try to move to the left, this is still not shown on screen.</font></td>
-    </tr>
-    <tr>
-      <td align="center">↓</td>
-      <td align="left"></td>
-    </tr>
-    <tr>
-      <td><img src="7pics/05.png" border="0" height="239" width="119"></td>
-      <td><font size="-1">Now it will process the fall and show it on screen.</font></td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/06.gif" border="0" height="239" width="119"></td>
-      <td><img src="7pics/07.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">Of course, if the joystick is in a neutral position, the I will fall as usual.</font></td>
-    </tr>
-  </tbody>
-</table>
-<p> </p>
-<p><b><font color="#ff0000">Special rotations</font></b></p>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/purple.gif" border="0" height="31" width="31"></td>
-      <td><img src="7pics/08.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">As shown here the top of the S will end up one column to the left, uable to our advantage.</font></td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/09.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">This behaviour can also be used to fill holes like this.</font></td>
-    </tr>
-  </tbody>
-</table>
-<p> </p>
-<p><b><font color="#ff0000">Across holes</font></b></p>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="7pics/10.gif" border="0" height="239" width="119"></td>
-      <td><img src="7pics/11.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">Sometimes you can move across holes and rotate the block in place.<br>
-      You will need to look at the terrain on a case by case basis though.</font></td>
-    </tr>
-  </tbody>
-</table>
-<hr>
-<table width="100%">
-  <tbody>
-    <tr>
-      <td><a href="6.htm">Previous lesson</a></td>
-      <td align="center"></td>
-      <td align="right"><a href="8.htm">Next lesson</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td align="center"><a href="top.htm" target="_self">Top level</a></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-</body></html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF8">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<title>Tetris Guide</title>
+	</head>
+	<body>
+		<h1>Lesson 7: Understanding the range of movement</h1>
+		<hr>
+		<h2>Sliding over holes</h2>
+		<table>
+			<tr>
+				<td><img src="7pics/12.gif"></td>
+				<td>With J and L it's a good idea to use IRS to land with the blunt side down.<br></td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><img src="7pics/14.gif"></td>
+				<td><img src="7pics/15.gif"></td>
+				<td>You can slide over bumps when they're out of reach like this.</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><img src="7pics/16.gif"></td>
+				<td><img src="7pics/17.gif"></td>
+				<td>
+					Rotating J<br>
+					As seen left you'll often need to use IRS and keep rotating in that direction.<br>
+					On the right side you can see a more complicated example.
+				</td>
+			</tr>
+		</table>
+		<h2>When not to use IRS</h2>
+		<table>
+			<tr>
+				<td><img src="7pics/18.gif"></td>
+				<td>L and S are easy to slide to the left without IRS in most cases.</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><img src="7pics/19.gif"></td>
+				<td><img src="7pics/20.gif"></td>
+				<td>Sometimes you have to shift the block first before rotating, using IRS they'd get stuck.</td>
+			</tr>
+		</table>
+		<h2>Rotating the I</h2>
+		<table>
+			<tr>
+				<td><img src="7pics/red.gif"></td>
+				<td><img src="7pics/red2.gif"></td>
+				<td><img src="7pics/red3.gif"></td>
+				<td>The I can only be rotated on the right when there's a 2 x 2 space free.</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><img src="7pics/21.gif"></td>
+				<td><img src="7pics/22.gif"></td>
+				<td>If a 2 x 2 space is available the other terrain doesn't matter.</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><img src="7pics/red4.gif"></td>
+				<td><img src="7pics/red5.gif"></td>
+				<td>
+					On the right side a 3 x 2 space is needed.<br>
+					The steps pattern works only on the right.
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><img src="7pics/25.gif"></td>
+				<td><img src="7pics/26.gif"></td>
+				<td><img src="7pics/24.gif"></td>
+				<td>In some cases you need to be careful with rotating so you don't get stuck.</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><img src="7pics/01.png"></td>
+				<td>
+					What can you do when the situation is like this?<br>
+					In 20G mode, it would seem that you'd get stuck in the hole there.<br>
+					In this case, however, with accumulated speed to the left, the game will perform more than one action in a frame.<br>
+					<br>
+					See the next section for more details.
+				</td>
+			</tr>
+		</table>
+		<h2>Synchronous actions</h2>
+		<p>
+			In some cases you can perform multiple action in one frame<br>
+			As mentioned in <a href="1.htm">lesson 1</a> a frame is the smallest time-unit visible to the player.<br>
+			<br>
+			<br>
+			Here is an example of this behaviour.<br>
+			More advanced examples can be found in <a href="12.htm">lesson 12</a>.
+		</p>
+		<table>
+			<tr>
+				<td><img src="7pics/02.png"></td>
+				<td>While holding left, we rotate.<br></td>
+			</tr>
+			<tr>
+				<td>↓</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><img src="7pics/03.png"></td>
+				<td>The game will rotate in memory, this is not shown on screen.</td>
+			</tr>
+			<tr>
+				<td>↓</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><img src="7pics/04.png"></td>
+				<td>Now it will try to move to the left, this is still not shown on screen.</td>
+			</tr>
+			<tr>
+				<td>↓</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><img src="7pics/05.png"></td>
+				<td>Now it will process the fall and show it on screen.</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><img src="7pics/06.gif"></td>
+				<td><img src="7pics/07.gif"></td>
+				<td>Of course, if the joystick is in a neutral position, the I will fall as usual.</td>
+			</tr>
+		</table>
+		<h2>Special rotations</h2>
+		<table>
+			<tr>
+				<td><img src="7pics/purple.gif"></td>
+				<td><img src="7pics/08.gif"></td>
+				<td>As shown here the top of the S will end up one column to the left, uable to our advantage.</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><img src="7pics/09.gif"></td>
+				<td><font size="-1">This behaviour can also be used to fill holes like this.</font></td>
+			</tr>
+		</table>
+		<h2>Across holes</h2>
+		<table>
+			<tr>
+				<td><img src="7pics/10.gif"></td>
+				<td><img src="7pics/11.gif"></td>
+				<td><font size="-1">Sometimes you can move across holes and rotate the block in place.<br>
+						You will need to look at the terrain on a case by case basis though.</font></td>
+			</tr>
+		</table>
+		<hr>
+		<table>
+			<tr>
+				<td><a href="6.htm">Previous lesson</a></td>
+				<td></td>
+				<td><a href="8.htm">Next lesson</a></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="top.htm" target="_self">Top level</a></td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>

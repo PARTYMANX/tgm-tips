@@ -1,168 +1,164 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF8">
-<meta http-equiv="Content-Style-Type" content="text/css">
-<title>Tetris Guide</title>
-</head>
-
-<body link="#00ff00" bgcolor="#000000" text="#cccccc" vlink="#00cc00">
-<p><b><font size="+1" color="#ff0000">Lesson 1: Basics</font></b></p>
-<hr>
-<p><b><font color="#ff0000">The 7 tetrominoes and the buttons.</font></b></p>
-<table border="1">
-  <tbody>
-    <tr>
-      <td rowspan="2"></td>
-      <td colspan="6" rowspan="2" align="center"><font size="-1"><b><font size="-1" color="#ffff00">A</font></b> Button<br>
-      <td rowspan="2" align="center"><font size="-1">Initial Appearance</font></td>
-      <td colspan="6" rowspan="2" align="center"><font size="-1"><b><font size="-1" color="#ffff00">B</font></b> Button<br>
-      <td rowspan="2" align="center"><font size="-1"><b><font size="-1" color="#ffff00">C</font></b> Button<br>
-    </tr>
-    <tr>
-    </tr>
-    <tr>
-      <td align="center"><font size="-1">T</font></td>
-      <td colspan="6" align="center"><img src="1pics/mizu_a.gif" border="0" height="31" width="31"></td>
-      <td align="center"><img src="1pics/mizu00.PNG" border="0" height="60" width="119"></td>
-      <td colspan="6" align="center"><img src="1pics/mizu_b.gif" border="0" height="31" width="31"></td>
-      <td align="center"><font size="-1">Same as </font><font size="-1" color="#ffff00"><b>A</b></font></td>
-    </tr>
-    <tr>
-      <td align="center"><font size="-1">J</font></td>
-      <td colspan="6" align="center"><img src="1pics/blue_a.gif" border="0" height="31" width="31"></td>
-      <td align="center"><img src="1pics/blue00.PNG" border="0" height="60" width="119"></td>
-      <td colspan="6" align="center"><img src="1pics/blue_b.gif" border="0" height="31" width="31"></td>
-      <td align="center"><font size="-1">Same as </font><font size="-1" color="#ffff00"><b>A</b></font></td>
-    </tr>
-    <tr>
-      <td align="center"><font size="-1">L</font></td>
-      <td colspan="6" align="center"><img src="1pics/orange_a.gif" border="0" height="31" width="31"></td>
-      <td align="center"><img src="1pics/orange00.PNG" border="0" height="60" width="119"></td>
-      <td colspan="6" align="center"><img src="1pics/orange_b.gif" border="0" height="31" width="31"></td>
-      <td align="center"><font size="-1">Same as </font><font size="-1" color="#ffff00"><b>A</b></font></td>
-    </tr>
-    <tr>
-      <td align="center"><font size="-1">Z</font></td>
-      <td colspan="6" align="center"><img src="1pics/green.gif" border="0" height="31" width="31"></td>
-      <td align="center"><img src="1pics/green00.PNG" border="0" height="60" width="119"></td>
-      <td colspan="6" align="center"><font size="-1">Same as </font><font size="-1" color="#ffff00"><b>A</b></font></td>
-      <td align="center"><font size="-1">Same as </font><font size="-1" color="#ffff00"><b>A</b></font></td>
-    </tr>
-    <tr>
-      <td align="center"><font size="-1">S</font></td>
-      <td colspan="6" align="center"><img src="1pics/purple.gif" border="0" height="31" width="31"></td>
-      <td align="center"><img src="1pics/parple00.PNG" border="0" height="60" width="119"></td>
-      <td colspan="6" align="center"><font size="-1">Same as </font><font size="-1" color="#ffff00"><b>A</b></font></td>
-      <td align="center"><font size="-1">Same as </font><font size="-1" color="#ffff00"><b>A</b></font></td>
-    </tr>
-    <tr>
-      <td align="center"><font size="-1">I</font></td>
-      <td colspan="6" align="center"><img src="1pics/red.gif" border="0" height="41" width="41"></td>
-      <td align="center"><img src="1pics/red00.PNG" border="0" height="60" width="119"></td>
-      <td colspan="6" align="center"><font size="-1">Same as </font><font size="-1" color="#ffff00"><b>A</b></font></td>
-      <td align="center"><font size="-1">Same as </font><font size="-1" color="#ffff00"><b>A</b></font></td>
-    </tr>
-    <tr>
-      <td align="center"><font size="-1">O</font></td>
-      <td colspan="6" align="center"><font size="-1">Cannot be rotated.<br></font></td>
-      <td align="center"><img src="1pics/yellow00.PNG" border="0" height="60" width="119"></td>
-      <td colspan="6" align="center"><font size="-1">Same as </font><font size="-1" color="#ffff00"><b>A</b></font></td>
-      <td align="center"><font size="-1">Same as </font><font size="-1" color="#ffff00"><b>A</b></font></td>
-    </tr>
-  </tbody>
-</table>
-<p><font size="-1">TGM Follows the SEGA rotation system. All of the blocks except I always have a block in the lowest row, and in this way, appear to roll on the ground.<br>
-This might seem unnatural at first, but I think it is easier to use in high speed situations.</font></p>
-<p></p>
-<p><b><font color="#ff0000">The Well</font></b></p>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="1pics/kiso01.gif" border="0" height="239" width="119"></td>
-      <td><font size="-1">The well is a </font><font size="-1" color="#ffff00">20 rows by 10 columns </font><font size="-1">field.<br>
-      However, as shown to the left, the blocks can go over the uppermost row.<br>
-      The stacked blocks as a whole are called the stack.<br>
-      The game is over when blocks are forced to overlap.<br>
-      Above the well you can see the next block to come.</font></td>
-    </tr>
-  </tbody>
-</table>
-<p></p>
-<p><b><font color="#ff0000">Levels</font></b></p>
-<p><font size="-1">Progress in the game is represented by levels.<br>
-The game starts at level 0 and end at level 999.<br>
-For each block to appear the level </font><font size="-1" color="#ffff00">will raise by 1</font><font size="-1">, Every time you clear lines the level will go up by the amount of lines cleared.<br>
-<br>
-Every level divisible by 100 is the start of a new </font><font size="-1" color="#ffff00">section.</font><font size="-1"><br>
-To rise from x99 to x00 or from 998 to 999 you will need to clear a line.<br>
-<br>
-Examples:<br>
-- Clearing a line at Lv.99 will raise it to 100, the next block to enter the well will raise it to 101.<br>
-- Clearing 4 lines at Lv.95 will raise it to 99, when the next block enters the well it will <b>still </b>be at Lv.99<br>
-</font></p>
-<p></p>
-<p><b><font color="#ff0000">20G</font></b></p>
-<p><font size="-1">A frame is calculated 60 times every second.<br>
-The amount of rows a block descends every frame is called a </font><font size="-1" color="#ffff00">G</font><font size="-1">.<br>
-TGM Has a new mode called <b>20G</b> in which blocks appear at the bottom of the well.</font></p>
-<p></p>
-<p><b><font color="#ff0000">ARE/Lock delay</font></b></p>
-<p><font size="-1">When blocks fall on the stack there is a brief period before they lock.<br>
-This allows you to move blocks in 20G mode.<br>
-This period is called the Lock Delay and is set at about 0.5 seconds.<br>
-<br>
-There is also a brief pause after a block locks and before the next one appears, this is called the ARE.<br>
-<p></p></font>
-<p><b><font color="#ff0000">Soft drop/Manual Lock</font></b></p>
-<p><font size="-1">You can make a block fall faster by holding the control stick down. It will fall at 1G unless the current speed is higher than 1G, then it will not fall faster.<br>
-If you pull the control stick down while a block is on the ground it will ock despite any lock delays.<br></font>
-<p><b><font color="#ff0000">IRS</font></b></p>
-<p><font size="-1">IRS Stands for Initial Rotation System.<br>
-</font><font size="-1">If you </font><font size="-1" color="#ffff00">keep a button pressed</font><font size="-1"> during the ARE, the block will appear rotated.<br></font>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="1pics/kiso02.PNG" border="0" height="239" width="119"></td>
-      <td>→</td>
-      <td><img src="1pics/kiso03.PNG" border="0" height="239" width="119"></td>
-      <td><img src="1pics/kiso07.PNG" border="0" height="239" width="119"></td>
-      <td><font size="-1">IRS Can be used to prevent a game over.<br>
-      Normal appearance of the S block would have caused a game over by intersecting the Z block. IRS prevents this.<br>
-      <font size="-1" color="#ffff00">IRS will be blocked when it would cause a game over.</font></td>
-    </tr>
-  </tbody>
-</table>
-<p><b><font color="#ff0000">Wall kicks</font></b></p>
-<table>
-  <tbody>
-    <tr>
-      <td><img src="1pics/01.png" border="0" height="239" width="119"></td>
-      <td align="center">→<br>
-      <img src="1pics/01.gif" border="0" height="31" width="31"></td>
-      <td><img src="1pics/02.png" border="0" height="239" width="119"></td>
-      <td><font size="-1">According to the table above this rotation should be impossible.<br>
-      But, because of an empty space to the right the T will kick the wall.<br>
-      Wall kicks, along with IRS make TGM a comfortable series to play.<br>
-      <a href="8.htm">Lesson 8</a> will handle IRS more and <a href="11.htm">lesson 11</a> will help you use wall kicks.</font></td>
-    </tr>
-  </tbody>
-</table>
-<hr>
-<table width="100%">
-  <tbody>
-    <tr>
-      <td><a href="top.htm">Previous lesson</a></td>
-      <td align="center"></td>
-      <td align="right"><a href="2.htm">Next lesson</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td align="center"><a href="top.htm" target="_self">Top level</a></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-</body></html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF8">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<title>Tetris Guide</title>
+	</head>
+	<body>
+		<h1>Lesson 1: Basics</h1>
+		<hr>
+		<h2>The 7 tetrominoes and the buttons.</h2>
+		<table>
+			<tr>
+				<th></th>
+				<th><h4><tt>A</tt> Button</h4></th>
+				<th><h4>Initial Appearance</h4></th>
+				<th><h4><tt>B</tt> Button</h4></th>
+				<th><h4><tt>C</tt> Button</h4></th>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<td>T</td>
+				<td><img src="1pics/mizu_a.gif"></td>
+				<td><img src="1pics/mizu00.PNG"></td>
+				<td><img src="1pics/mizu_b.gif"></td>
+				<td>Same as <tt>A</tt></td>
+			</tr>
+			<tr>
+				<td>J</td>
+				<td><img src="1pics/blue_a.gif"></td>
+				<td><img src="1pics/blue00.PNG"></td>
+				<td><img src="1pics/blue_b.gif"></td>
+				<td>Same as <tt>A</tt></td>
+			</tr>
+			<tr>
+				<td>L</td>
+				<td><img src="1pics/orange_a.gif"></td>
+				<td><img src="1pics/orange00.PNG"></td>
+				<td><img src="1pics/orange_b.gif"></td>
+				<td>Same as <tt>A</tt></td>
+			</tr>
+			<tr>
+				<td>Z</td>
+				<td><img src="1pics/green.gif"></td>
+				<td><img src="1pics/green00.PNG"></td>
+				<td>Same as <tt>A</tt></td>
+				<td>Same as <tt>A</tt></td>
+			</tr>
+			<tr>
+				<td>S</td>
+				<td><img src="1pics/purple.gif"></td>
+				<td><img src="1pics/parple00.PNG"></td>
+				<td>Same as <tt>A</tt></td>
+				<td>Same as <tt>A</tt></td>
+			</tr>
+			<tr>
+				<td>I</td>
+				<td><img src="1pics/red.gif"></td>
+				<td><img src="1pics/red00.PNG"></td>
+				<td>Same as <tt>A</tt></td>
+				<td>Same as <tt>A</tt></td>
+			</tr>
+			<tr>
+				<td>O</td>
+				<td>Cannot be rotated.<br></td>
+				<td><img src="1pics/yellow00.PNG"></td>
+				<td>Same as <tt>A</tt></td>
+				<td>Same as <tt>A</tt></td>
+			</tr>
+		</table>
+		<p>
+			TGM Follows the SEGA rotation system. All of the blocks except I always have a block in the lowest row, and in this way, appear to roll on the ground.<br>
+			This might seem unnatural at first, but I think it is easier to use in high speed situations.
+		</p>
+		<h2>The Well</h2>
+		<table>
+			<tr>
+				<td><img src="1pics/kiso01.gif"></td>
+				<td>
+					The well is a 20 rows by 10 columns field.<br>
+					However, as shown to the left, the blocks can go over the uppermost row.<br>
+					The stacked blocks as a whole are called the stack.<br>
+					The game is over when blocks are forced to overlap.<br>
+					Above the well you can see the next block to come.
+				</td>
+			</tr>
+		</table>
+		<h2>Levels</h2>
+		<p>
+			Progress in the game is represented by levels.<br>
+			The game starts at level 0 and end at level 999.<br>
+			For each block to appear the level will raise by 1, Every time you clear lines the level will go up by the amount of lines cleared.<br>
+			<br>
+			Every level divisible by 100 is the start of a new section.<br>
+			To rise from x99 to x00 or from 998 to 999 you will need to clear a line.<br>
+			<br>
+			Examples:<br>
+			- Clearing a line at Lv.99 will raise it to 100, the next block to enter the well will raise it to 101.<br>
+			- Clearing 4 lines at Lv.95 will raise it to 99, when the next block enters the well it will still be at Lv.99<br>
+		</p>
+		<h2>20G</h2>
+		<p>
+			A frame is calculated 60 times every second.<br>
+			The amount of rows a block descends every frame is called a G.<br>
+			TGM Has a new mode called 20G in which blocks appear at the bottom of the well.
+		</p>
+		<h2>ARE/Lock delay</h2>
+		<p>
+			When blocks fall on the stack there is a brief period before they lock.<br>
+			This allows you to move blocks in 20G mode.<br>
+			This period is called the Lock Delay and is set at about 0.5 seconds.<br>
+			<br>
+			There is also a brief pause after a block locks and before the next one appears, this is called the ARE.<br>
+		</p>
+		<h2>Soft drop/Manual Lock</h2>
+		<p>
+			You can make a block fall faster by holding the control stick down. It will fall at 1G unless the current speed is higher than 1G, then it will not fall faster.<br>
+			If you pull the control stick down while a block is on the ground it will ock despite any lock delays.<br>
+		</p>
+		<h2>IRS</h2>
+		<p>
+			IRS Stands for Initial Rotation System.<br>
+			If you keep a button pressed during the ARE, the block will appear rotated.<br>
+		</p>
+		<table>
+			<tr>
+				<td><img src="1pics/kiso02.PNG"></td>
+				<td>→</td>
+				<td><img src="1pics/kiso03.PNG"></td>
+				<td><img src="1pics/kiso07.PNG"></td>
+				<td>IRS Can be used to prevent a game over.<br>
+				Normal appearance of the S block would have caused a game over by intersecting the Z block. IRS prevents this.<br>
+				IRS will be blocked when it would cause a game over.</td>
+			</tr>
+		</table>
+		<h2>Wall kicks</h2>
+		<table>
+			<tr>
+				<td><img src="1pics/01.png"></td>
+				<td>→<br>
+				<img src="1pics/01.gif"></td>
+				<td><img src="1pics/02.png"></td>
+				<td>According to the table above this rotation should be impossible.<br>
+				But, because of an empty space to the right the T will kick the wall.<br>
+				Wall kicks, along with IRS make TGM a comfortable series to play.<br>
+				<a href="8.htm">Lesson 8</a> will handle IRS more and <a href="11.htm">lesson 11</a> will help you use wall kicks.</td>
+			</tr>
+		</table>
+		<hr>
+		<table>
+			<tr>
+				<td><a href="top.htm">Previous lesson</a></td>
+				<td></td>
+				<td><a href="2.htm">Next lesson</a></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="top.htm" target="_self">Top level</a></td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>
