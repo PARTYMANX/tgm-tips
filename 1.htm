@@ -10,7 +10,40 @@
   <body>
     <header class="header">
       <div>
-        <a class="header__logo" href="/">TGM Guide</a>
+        <a class="header__logo" href="index.html">
+          <svg
+            viewBox="0 0 40 40"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            alt="TGM"
+          >
+            <defs>
+              <linearGradient
+                x1="-1.69%"
+                y1="12.26%"
+                x2="100%"
+                y2="77.9%"
+                id="b"
+              >
+                <stop stop-color="#F9D423" offset="0%" />
+                <stop stop-color="#FF4E50" offset="100%" />
+              </linearGradient>
+              <circle id="a" cx="20" cy="20" r="20" />
+            </defs>
+            <g fill="none" fill-rule="evenodd">
+              <mask id="c" fill="#fff">
+                <use xlink:href="#a" />
+              </mask>
+              <use fill="url(#b)" fill-rule="nonzero" xlink:href="#a" />
+              <path
+                d="M12.66 23.36L10.98 34h-2.5l1.68-10.64H7.58l.34-2.18h7.67l-.34 2.18h-2.59zm7.93 3.82h5.52l-.05.33c-.15.93-.4 1.8-.78 2.62a8.25 8.25 0 01-1.44 2.19 6.27 6.27 0 01-6.87 1.6 4.55 4.55 0 01-1.63-1.18 5.25 5.25 0 01-1-1.74 6.4 6.4 0 01-.35-2.13 8.72 8.72 0 012.58-6 7.35 7.35 0 012.22-1.5 6.64 6.64 0 012.65-.53 5.1 5.1 0 012.85.8 4.22 4.22 0 011.72 2.26l-2.4 1.2c-.17-.6-.48-1.1-.94-1.48a2.52 2.52 0 00-1.66-.57c-.58 0-1.11.14-1.61.4-.5.27-.94.62-1.31 1.07a6.9 6.9 0 00-1.41 3.12 5.92 5.92 0 00.1 2.25c.13.43.3.81.55 1.15.25.34.56.6.95.8a2.98 2.98 0 002.45.06 3.8 3.8 0 002.25-2.68h-2.72l.33-2.04zM36.08 34l.23-7.96h-.03l-4.2 8.13h-.86l-1.52-8.13h-.03L27.27 34h-2.52L29 20.84h1.77l1.82 8.45 4.37-8.45h1.8L38.6 34h-2.51z"
+                fill="#FFF"
+                mask="url(#c)"
+              />
+            </g>
+          </svg>
+          Guide
+        </a>
       </div>
     </header>
     <main>
@@ -62,12 +95,11 @@
 
       <article>
         <nav class="article-nav">
-          <a class="article-nav__prev" href="1.htm">← Basics</a
-          ><a class="article-nav__toc" href="1.htm">Table of contents</a
-          ><a class="article-nav__next" href="1.htm">Basics →</a>
+          <a class="article-nav__toc" href="index.html">Table of contents</a
+          ><a class="article-nav__next" href="2.htm">Basic stacking →</a>
         </nav>
 
-        <h1>Lesson 1: Basics</h1>
+        <h1><small>Lesson 1:</small> Basics</h1>
         <h2>The 7 tetrominoes and the buttons.</h2>
         <table>
           <thead>
